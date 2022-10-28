@@ -253,3 +253,28 @@ ul {
   margin: 0 auto;
   margin-top: -1rem;
 }
+
+/* My styles */
+h3 {
+  color: white;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 90vw;
+  height: 80vh;
+}
+
+.panel {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50px;
+}
