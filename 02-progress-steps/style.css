@@ -146,6 +146,14 @@ ul {
   text-transform: capitalize;
   display: inline-block;
 }
+.btn:disabled {
+  background: gray;
+  color: black;
+  cursor: not-allowed;
+}
+.btn:disabled:hover {
+  background-color: rgb(208, 204, 204);
+}
 .btn:hover {
   background: var(--primary-700);
   box-shadow: var(--shadow-3);
@@ -252,4 +260,71 @@ ul {
   height: 0.25rem;
   margin: 0 auto;
   margin-top: -1rem;
+}
+
+/* My CSS */
+body {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  background-color: #f6f7fb;
+}
+
+.circle {
+  text-align: center;
+}
+
+.progress-container {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 30px;
+  width: 350px;
+  max-width: 100%;
+}
+
+.progress-container::before {
+  content: "";
+  background: #e0e0e0;
+  position: absolute;
+  height: 4px;
+  width: 100%;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  z-index: -1;
+  transition: 0.4s ease;
+}
+
+.progress {
+  background: #3498db;
+  position: absolute;
+  height: 4px;
+  width: 0%;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  z-index: -1;
+  transition: 0.4s ease;
+}
+
+.circle {
+  background-color: #fff;
+  color: #999;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid #e0e0e0;
+  transition: 0.4s ease;
+}
+
+.circle.active {
+  border-color: #3498db;
+}
+
+.btn:active {
+  transform: scale(0.98);
 }
