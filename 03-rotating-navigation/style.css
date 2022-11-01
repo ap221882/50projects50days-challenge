@@ -263,6 +263,7 @@ body {
 
 .container {
   background-color: #fafafa;
+  transform-origin: top left;
   transition: transform 0.5s linear;
   padding: 50px;
   min-height: 100vh;
@@ -340,6 +341,10 @@ body {
 .container.show-nav + nav li {
   transform: translateX(0);
   transition-delay: 0.3s;
+}
+
+.container.show-nav .circle {
+  transform: rotate(-70deg);
 }
 
 nav {
