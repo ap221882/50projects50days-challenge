@@ -291,6 +291,7 @@ body {
 
 .circle .btna {
   position: absolute;
+  cursor: pointer;
   top: 50%;
   left: 50%;
   height: 100px;
@@ -301,4 +302,37 @@ body {
 }
 .circle .btna:focus {
   outline: none;
+}
+
+.circle .btna#open {
+  left: 60%;
+}
+
+.circle .btna#close {
+  top: 60%;
+  transform: rotate(90deg);
+  transform-origin: top left;
+}
+
+.content img {
+  width: 100%;
+}
+
+.content {
+  max-width: 1000px;
+  margin: 50px auto;
+}
+
+.content h1 {
+  margin: 0;
+}
+
+.content small {
+  color: #555;
+  font-style: italic;
+}
+
+.content p {
+  line-height: 1.5;
+  color: #333;
 }
