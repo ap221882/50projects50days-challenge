@@ -135,7 +135,7 @@ ul {
 
 .btn {
   cursor: pointer;
-  color: var(--white);
+  /* color: var(--white); */
   background: var(--primary-500);
   border: transparent;
   border-radius: var(--borderRadius);
@@ -252,4 +252,62 @@ ul {
   height: 0.25rem;
   margin: 0 auto;
   margin-top: -1rem;
+}
+
+/* My Styles */
+body {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    277deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(137, 86, 168, 1) 0%,
+    rgba(149, 116, 181, 1) 62%,
+    rgba(206, 194, 213, 1) 86%
+  );
+}
+
+.search {
+  height: 50px;
+  position: relative;
+}
+
+.search .text {
+  border: none;
+  transition: width 0.3s ease;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  padding: 15px;
+  background-color: white;
+}
+
+#btn {
+  background-color: white;
+  color: rgba(2, 0, 36, 1) 0%;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 0;
+  /* left: 0; */
+  right: 0;
+  transition: transform 0.3s ease;
+}
+
+.btn:focus,
+.text:focus {
+  outline: none;
+}
+
+.search.active .text {
+  width: 200px;
+}
+
+.search.active .btn {
+  transform: translateX(198px);
 }
