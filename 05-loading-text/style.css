@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 /* fonts */
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600&family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu");
 
 html {
   font-size: 100%;
@@ -42,8 +42,8 @@ html {
   --green-dark: #0f5132;
 
   /* fonts  */
-  --headingFont: "Roboto", sans-serif;
-  --bodyFont: "Nunito", sans-serif;
+  --headingFont: "Ubuntu", sans-serif;
+  --bodyFont: "Ubuntu", sans-serif;
   --small-text: 0.875rem;
   --extra-small-text: 0.7em;
   /* rest of the vars */
@@ -252,4 +252,29 @@ ul {
   height: 0.25rem;
   margin: 0 auto;
   margin-top: -1rem;
+}
+
+/* My styles */
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.bg {
+  background: url("./images/erik-mclean-ZRns2R5azu0-unsplash.jpg") no-repeat
+    center center/cover;
+  position: absolute;
+  width: calc(100vw + 60px);
+  height: calc(100vh + 60px);
+  top: -30px;
+  left: -30px;
+  left: 0;
+  filter: blur(0px);
+  z-index: -1;
+}
+
+.loading-text {
+  font-size: 50px;
+  color: #fff;
 }
