@@ -9,3 +9,5 @@ Making 50 Vanilla JS projects in 50 days
 3. Rotating Navbar - [Live Project](https://ajay-rotating-navbar-03-50projects.netlify.app/)
 
 4. Hidden Search - [Live Project](https://ajay-hidden-search-04-50projects.netlify.app/)
+
+5. Loading Text - [Live Project](https://ajay-loading-text-05-50projects.netlify.app/)
