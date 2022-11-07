@@ -11,3 +11,5 @@ Making 50 Vanilla JS projects in 50 days
 4. Hidden Search - [Live Project](https://ajay-hidden-search-04-50projects.netlify.app/)
 
 5. Loading Text - [Live Project](https://ajay-loading-text-05-50projects.netlify.app/)
+
+6. Scroll Animation - [Live Project](https://ajay-scroll-animation-06-50projects.netlify.app/)
