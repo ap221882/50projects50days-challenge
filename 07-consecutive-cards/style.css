@@ -8,6 +8,8 @@
 
 html {
   font-size: 100%;
+  margin: 0;
+  padding: 0;
 } /*16px*/
 
 :root {
@@ -255,9 +257,48 @@ ul {
 }
 
 /* My styles */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #232946;
+  min-height: 100vh;
+}
 .separator {
   width: 10px;
-  background-color: red;
-  height: 100vh;
+  background-color: #fffffe;
+  height: 100%;
   margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.experiences {
+  width: 50%;
+  padding: 1rem;
+  color: #232946;
+  background-color: #b8c1ec;
+  border-radius: 20px;
+  transition: all 0.2s linear;
+}
+
+.experiences:hover {
+  background-color: #eebbc3;
+}
+
+.experiences:nth-child(even) {
+  transform: translateX(calc(100% + 15px));
+}
+
+.experiences:nth-child(odd) {
+  transform: translateX(-15px);
+}
+
+.card-container {
+  width: 80vw;
+  margin: 0 auto;
+  margin-top: 2rem;
 }
