@@ -301,4 +301,6 @@ body {
   width: 80vw;
   margin: 0 auto;
   margin-top: 2rem;
+  height: 100%;
+  position: relative;
 }
