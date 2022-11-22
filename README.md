@@ -13,3 +13,7 @@ Making 50 Vanilla JS projects in 50 days
 5. Loading Text - [Live Project](https://ajay-loading-text-05-50projects.netlify.app/)
 
 6. Scroll Animation - [Live Project](https://ajay-scroll-animation-06-50projects.netlify.app/)
+
+7. PWA manifest.json - [Github Link](https://github.com/ap221882/PWA-learn-manifest.json)
+
+8. Consecutive Cards - [Live Project](https://ajay-consecutive-cards-08-50projects.netlify.app/)
